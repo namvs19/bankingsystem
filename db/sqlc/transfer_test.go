@@ -7,7 +7,6 @@ import (
 
 	"github.com/namvs19/bankingsystem/util"
 	"github.com/stretchr/testify/require"
-	_ "github.com/stretchr/testify/require"
 )
 
 func createRandomTransfer(t *testing.T, account1, account2 Account) Transfer {
